@@ -64,7 +64,7 @@ int cMin(int v1, int v2Add, int v2Added){
 		return v1;
 	}	
 	if (v1 == 0 || v1 >= (v2Add + v2Added)){
-		return v2Add;
+		return v2Add + v2Added;
 	}
 	return v1;
 }
