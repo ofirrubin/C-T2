@@ -2,7 +2,7 @@ CC = gcc
 AR = ar
 FLAGS = -Wall -g
 
-all: main my_mat
+all: main
 
 main: main.o my_mat.a
 	$(CC) $(FLAGS) -o main main.o my_mat.a
