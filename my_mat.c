@@ -37,7 +37,7 @@ int cMin(int v1, int v2Add, int v2Added){
 }
 
 void printIsPath(int m[N][N], int i, int j){
-	if (m[i][j]){
+	if (i != j && m[i][j]){
 		printf("True\n");
 	}
 	else{
