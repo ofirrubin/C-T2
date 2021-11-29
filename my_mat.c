@@ -47,7 +47,7 @@ void printIsPath(int m[N][N], int i, int j){
 
 void printPath(int m[N][N], int i, int j){
 	 /* printf("Path from %d to %d\n", i, j); */
-	if (m[i][j] == 0){
+	if (i == j || m[i][j]){
 		printf("-1\n");
 	}
 	else{
