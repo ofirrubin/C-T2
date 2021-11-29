@@ -47,7 +47,12 @@ void printIsPath(int m[N][N], int i, int j){
 
 void printPath(int m[N][N], int i, int j){
 	 /* printf("Path from %d to %d\n", i, j); */
-	printf("%d\n", m[i][j]); 
+	if (m[i][j] == 0){
+		printf("-1\n");
+	}
+	else{
+		printf("%d\n", m[i][j]); 
+	}
 }
 
 void matrixFloyd(int m[N][N]){
